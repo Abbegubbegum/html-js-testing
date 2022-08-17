@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#timer {
+    font-size: 7rem;
+}
+
+#cycle-counter {
+    font-size: 5rem;
+}
+
+#start-button
+{
+    width: 10rem;
+    height: 7rem;
+}
+
+.work-timer-on {
+    background-color: red;
+}
+
+.rest-timer-on {
+    background-color: green;
+}
